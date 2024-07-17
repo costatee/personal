@@ -8,13 +8,38 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        'font': '#EEEDEB',
+        'bg': '#2F3645',
+      },
+      backdropBlur: {
+        '10': '20px',
+      },
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'pen-strike': 'radial-gradient(circle, rgba(255, 255, 0, 0.5) 20%, rgba(255, 255, 0, 0) 80%)',
+      },
+      keyframes: {
+        'scale-rotate': {
+          '0%': {
+            transform: 'scale(0) rotate(0deg)',
+            opacity: '0',
+          },
+          '50%': {
+            transform: 'scale(1) rotate(-10deg)',
+            opacity: '0.5',
+          },
+          '100%': {
+            transform: 'scale(1) rotate(-10deg)',
+            opacity: '1',
+          },
+        },
+      },
+      animation: {
+        'stain-animation': 'scale-rotate 2s ease-in-out forwards',
       },
     },
   },
   plugins: [],
 };
+
 export default config;
