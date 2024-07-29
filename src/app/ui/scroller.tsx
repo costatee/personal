@@ -35,7 +35,7 @@ const Scroller: React.FC<InfiniteScrollerProps> = ({ items }) => {
 
   return (
     <div className="scroller" ref={scrollerRef}>
-      <div className="scroller__inner flex gap-[8rem]">
+      <div className="scroller__inner flex gap-4 md:gap-12 lg:gap-[5rem] xl:gap-[8rem]">
         {items.map((item, index) => (
           <img
             key={index}

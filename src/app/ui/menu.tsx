@@ -14,7 +14,7 @@ const NavLink = ({ href, children, className }: NavLinkProps) => (
 
 export default function Menu() {
   return (
-    <div className="fixed left-0 top-0 w-screen h-16 px-20 backdrop-blur-10 bg-white/50 border-2 border-black/5" >
+    <div className="fixed left-0 top-0 w-screen h-16 px-20 backdrop-blur-10 bg-white/50 border-2 border-black/5 z-10" >
       <style jsx>{`
         .backdrop-blur-10 {
           backdrop-filter: blur(20px);

@@ -1,15 +1,15 @@
-import RainbowText from "./lib/rainbow";
 import Intro from "./ui/intro";
-import Work from "./ui/work";
+import Stack from "./ui/stack";
 import Contact from "./ui/contact";
-import PenStrikeHeading from "./ui/pen";
+import Work from "./ui/work";
 
 export default function Home() {
   return (
-    <main className="w-full min-h-screen">
+    <main className="w-full min-h-screen flex-col">
       <Intro />
       <Work />
       <Contact />
+      <Stack />
     </main>
   );
 }

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body className={`${roboto.className} antialiased px-20`}>
+      <body className={`${roboto.className} antialiased m-4 md:m-6 lg:m-10 xl:px-20`}>
         <Menu />
         {children}
       </body>

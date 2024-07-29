@@ -1,4 +1,4 @@
-import { useLayoutEffect, useRef } from "react";
+import { useLayoutEffect, useRef, useEffect } from "react";
 import gsap from "gsap";
 
 const Rolling = ({ videos }: { videos: string[] }) => {
@@ -45,6 +45,7 @@ const Rolling = ({ videos }: { videos: string[] }) => {
             autoPlay
             loop
             muted
+            playsInline
             style={{ top: `${index * 450}px` }}
           />
         ))}

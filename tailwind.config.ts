@@ -20,25 +20,16 @@ const config: Config = {
         'pen-strike': 'radial-gradient(circle, rgba(255, 255, 0, 0.5) 20%, rgba(255, 255, 0, 0) 80%)',
       },
       keyframes: {
-        'scale-rotate': {
-          '0%': {
-            transform: 'scale(0) rotate(0deg)',
-            opacity: '0',
-          },
-          '50%': {
-            transform: 'scale(1) rotate(-10deg)',
-            opacity: '0.5',
-          },
-          '100%': {
-            transform: 'scale(1) rotate(-10deg)',
-            opacity: '1',
-          },
+        scalePic: {
+          '0%': { transform: 'scale(1)' },
+          '50%': { transform: 'scale(1.05)' },
+          '100%': { transform: 'scale(1.1)' },
+        },
+        },
+        animation: {
+          scalePic: 'scalePic 1s linear  1',
         },
       },
-      animation: {
-        'stain-animation': 'scale-rotate 2s ease-in-out forwards',
-      },
-    },
   },
   plugins: [],
 };
