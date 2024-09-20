@@ -17,7 +17,7 @@ export default function Stack() {
   ]
 
   return (
-    <section className="min-w-[90vw] h-full bg-gray-100 rounded-[36px] border-2 border-gray-200 overflow-hidden mt-6 md:mt-10">
+    <section className="min-w-[90vw] h-full bg-gray-100 rounded-[36px] border-2 border-gray-200 overflow-hidden mt-6 md:mt-10 shadow-lg">
         <div className="flex flex-col">
           <div className="flex justify-center items-center"> 
             {/* <h1 className="my-10 text-[1.85rem]">Some of the stuff I've dipped my toes in</h1> */}

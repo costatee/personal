@@ -14,7 +14,7 @@ const CopyButton = () => {
   };
 
   return (
-    <button onClick={copyToClipboard} className="mr-auto min-w-[10rem] text-[1.11rem] bg-gray-100 py-1.5 rounded-2xl border-2 border-gray-200 shadow-md active:border-gray-500 hover:bg-gray-200"> 
+    <button onClick={copyToClipboard} className="mr-auto min-w-[6rem] md:min-w-[8rem] text-[0.9rem] md:text-[1.11rem] bg-gray-100 py-1.5 rounded-2xl border-2 border-gray-200 shadow-md active:border-gray-500 hover:bg-gray-200"> 
       {isCopied ? 'Copied!' : 'Copy email'}
     </button>
   );
