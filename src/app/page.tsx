@@ -6,10 +6,10 @@ import Work from "./ui/work";
 export default function Home() {
   return (
     <main className="w-full min-h-screen flex-col">
-      <Intro />
+      <Intro />{/*
       <Work />
       <Contact />
-      <Stack />
+      <Stack /> */}
     </main>
   );
 }
