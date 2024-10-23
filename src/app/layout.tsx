@@ -5,7 +5,7 @@ import { lusitana, inter, roboto } from "./lib/fonts";
 
 export const metadata: Metadata = {
   title: "Attila Szepe",
-  description: "Portfolio Website | Available for work",
+  description: "Front End Developer",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

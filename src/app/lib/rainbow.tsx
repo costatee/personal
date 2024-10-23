@@ -17,7 +17,7 @@ const RainbowText: React.FC<RainbowTextProps> = ({ text }) => {
     target.classList.add('span-fade'); // Add the transition class
     setTimeout(() => {
       target.classList.remove('span-fade'); // Remove the transition class after the animation
-    }, 3300);
+    }, 100);
   };
 
   return (

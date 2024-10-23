@@ -23,7 +23,7 @@ export default function Menu() {
       `}</style>
       <nav className="h-full mx-2 md:mx-20">
         <ul className="flex justify-end items-center h-full gap-1 md:gap-4">
-          <NavLink className="md:text-[1.15rem] text-[1rem] mr-2"href="mailto:attila@attilaszepe.com">attila@attilaszepe.com</NavLink>
+          <NavLink className="md:text-[1.15rem] text-[1rem] mr-2"href="mailto:attila@attilaszepe.com">hello@attilaszepe.com</NavLink>
           <CopyButton />
           <NavLink className="md:text-[1.33rem] text-[1rem]" href="https://linkedin.com/in/attila-szepe">LinkedIn</NavLink>/
           <NavLink className="md:text-[1.33rem] text-[1rem]" href="https://github.com/costatee">Github</NavLink>
